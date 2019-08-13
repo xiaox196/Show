@@ -11,6 +11,24 @@ public class Number {
     private String nc;
     private String hk;
     private String FCD;
+    private String DRM;
+    private String ZAB;
+
+    public String getZAB() {
+        return ZAB;
+    }
+
+    public void setZAB(String ZAB) {
+        this.ZAB = ZAB;
+    }
+
+    public String getDRM() {
+        return DRM;
+    }
+
+    public void setDRM(String DRM) {
+        this.DRM = DRM;
+    }
 
     public String getNumber() {
         return number;

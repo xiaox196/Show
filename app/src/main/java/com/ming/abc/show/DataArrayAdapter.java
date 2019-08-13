@@ -57,6 +57,8 @@ public class DataArrayAdapter extends BaseAdapter {
             TextView cde=view.findViewById(R.id.cde);
             TextView single=view.findViewById(R.id.single);
             TextView size=view.findViewById(R.id.size);
+            TextView DRM=view.findViewById(R.id.dlm);
+            TextView ZAB=view.findViewById(R.id.ZAB);
             Number data=numbers.get(position);
             qishu.setText(data.getPeriods());
             number.setText(data.getNumber());
@@ -65,6 +67,8 @@ public class DataArrayAdapter extends BaseAdapter {
             cde.setText(data.getFCD());
             single.setText(data.getSingle());
             size.setText(data.getSize());
+            DRM.setText(data.getDRM());
+            ZAB.setText(data.getZAB());
             views.put(position,view);
         }
         return view;

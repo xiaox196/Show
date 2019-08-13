@@ -18,9 +18,9 @@ public class AndroidHttpUtils {
             //设置请求方法
             connection.setRequestMethod("GET");
             //设置连接超时时间（毫秒）
-            connection.setConnectTimeout(10000);
+            connection.setConnectTimeout(15000);
             //设置读取超时时间（毫秒）
-            connection.setReadTimeout(10000);
+            connection.setReadTimeout(15000);
 
             //返回输入流
             InputStream in = connection.getInputStream();
@@ -48,10 +48,9 @@ public class AndroidHttpUtils {
             }
         }
         if(result!=null){
-            System.out.println("====result:"+result);
+            System.out.println("http result:"+result);
             return result.toString();
         }
-        System.out.println("=========333333null");
         return null;
     }
 

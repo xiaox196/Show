@@ -1,85 +1,213 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent">
 
 
-    <TextView
-        android:layout_marginTop="5dp"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textColor="#000000"
-        android:layout_marginLeft="5dp"
-        android:text="FC=4,9,16,25,36,49,30,22,33,44,32"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textColor="#000000"
-        android:layout_marginLeft="5dp"
-        android:text="FD=6,10,8,12,20,21,24,27,38,40,45"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textColor="#000000"
-        android:layout_marginLeft="5dp"
-        android:text="FE=14,15,18,26,28,34,35,39,42,46,48"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/colorAccent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="FC=4,10,14,21,24,28,30,34,40,44,46"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="FD=6,12,16,18,25,27,33,35,39,45,48"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="FE=8,9, 15,20,22,26,32,36,38,42,49"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
 
 
-    <TextView
-        android:layout_marginTop="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textColor="#000000"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:text="HHH=4,6,10,12,16,18,22,24,27,28,33,34,38,39,44,45,49"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textColor="#000000"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:text="KKK=8,9,14,15,20,21,25,26,30,32,35,36,40,42,46,48"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent" />
 
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:background="@color/colorAccent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="HHH=4,6,10,12,16,18,22,24,27,28,33,34,38,39,44,45,49"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_marginTop="5dp"
-        android:textColor="#000000"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:text="Z=1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="KKK=8,9,14,15,20,21,25,26,30,32,35,36,40,42,46,48"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_marginTop="5dp"
-        android:textColor="#000000"
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
-        android:text="F=4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 27, 28, 30, 32，33, 34, 35, 36, 38, 39, 40, 42, 44, 45, 46, 48, 49"/>
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Z=1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="ZA=1,5,7,13,17,23,37,41"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="ZB=2,3,11,19,29 ,31,43,47"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="F=4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 27, 28,
+        30, 32，33, 34, 35, 36, 38, 39, 40, 42, 44, 45, 46, 48, 49"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="D=1,8,15,22,29,36,43"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="R=2,9,16,23,30,37,44"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="M=3,10,17,24,31,38,45"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="F=4,11,18,25,32,39,46"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="S=5,12,19,26,33,40,47"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="L=6,13,20,27,34,41,48"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="T=7,14,21,28,35,42,49"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="20dp" />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -58,11 +58,14 @@ public class ShowFragment extends Fragment {
                     number.setYear(StringTools.nullToEmply(obj.getString("year")));
                     number.setZf(StringTools.nullToEmply(obj.getString("zf")));
                     number.setNumber(StringTools.lessTenToZero(obj.getInt("number")));
+                    number.setDRM(StringTools.nullToEmply(obj.getString("note")));
+                    number.setZAB(StringTools.nullToEmply(obj.getString("zab")));
                     numbers.add(number);
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
             }
+
         }
         return numbers;
     }
